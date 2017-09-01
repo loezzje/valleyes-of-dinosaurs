@@ -45,7 +45,7 @@ class DinosaursController < ApplicationController
   private
 
   def dinosaur_params
-    dinosaur_params = params.require(:dinosaur).permit(:name, :age, :img_url)
+    dinosaur_params = params.require(:dinosaur).permit(:name, :age, :image_url)
   end
 
 end
